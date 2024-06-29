@@ -1,3 +1,37 @@
-.Fondo{
-   background-color: rgba(241, 220, 28, 0.932);  
+.body{
+   background-color: green;
+   text-align: center;
+}
+
+.header{
+   background-color: black;
+   margin-top: 0;
+   padding: 20px;
+   height: 100px;
+}
+
+.navbar .navbar-expand-sm .navbar-dark {
+   justify-content: right;
+}
+
+.main{
+   background-color: grey;
+   display: grid;
+   padding: 20px;
+   height: 800px;
+}
+
+.footer{
+   flex: 1;
+   background-color: black;
+   display: flex;
+   margin-bottom: 0;
+   justify-content: center;
+   height: 61px;
+}
+
+.texto_footer{
+   text-align: center;
+   color: white;
+   padding-top: 17px;
 }
